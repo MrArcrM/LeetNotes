@@ -1,1 +1,8 @@
 # LeetNotes
+
+
+
+🎈**Notes about LeetCode**🎈
+
+
+
