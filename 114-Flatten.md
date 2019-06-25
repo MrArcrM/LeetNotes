@@ -8,7 +8,7 @@
 
 + My Solution：
 
-  Something like `Clue Binary Tree`，详见[LeetCode94-Official Solution-Method3](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/er-cha-shu-de-zhong-xu-bian-li-by-leetcode/)
+  Something like `Clue Binary Tree`，for detail：[LeetCode94-Official Solution-Method3](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/er-cha-shu-de-zhong-xu-bian-li-by-leetcode/)
 
 ```python
 # Definition for a binary tree node.
