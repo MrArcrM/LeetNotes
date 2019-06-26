@@ -1,8 +1,8 @@
 ###139-WordBreak
 
-+ [Question](https://leetcode-cn.com/problems/word-break/submissions/)：can a string be splited by wordDict in which word can be used for more than one time
++ [Question](https://leetcode-cn.com/problems/word-break/)：can a string be splited by wordDict in which word can be used for more than one time
 
-+ Solution
++ Solution：
 
 ```python
 class Solution:
