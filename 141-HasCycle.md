@@ -29,6 +29,6 @@ class Solution(object):
 
 + Related：
 
-  [`142-DetectCycle`](./142-DetectCycle.md)
+  🏷 [`142-DetectCycle`](./142-DetectCycle.md)
 
   

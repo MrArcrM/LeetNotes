@@ -62,5 +62,5 @@ class Solution(object):
 
 + Related：
 
-  [`141-HasCycle`](./141-HasCycle.md)
+  🏷 [`141-HasCycle`](./141-HasCycle.md)
 
