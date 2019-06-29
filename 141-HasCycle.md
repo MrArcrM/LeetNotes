@@ -1,4 +1,4 @@
-### 144-HasCycle
+### 141-HasCycle
 
 + [Question](https://leetcode-cn.com/problems/linked-list-cycle/)：if a linkedlist has cycle
 + Solution：
