@@ -17,10 +17,12 @@
 ```python
 class Solution:
     def superPow(self, a: int, b: List[int]) -> int:
+      	'''
+      			(x^a * y^b) % c = ((x^a % c) * (y^b % c)) % c 
+      	'''
         modNum = 1337
         res = 1
         for i in range(len(b)):
-
             res = (self.getMod(res, 10, modNum) * self.getMod(a, b[i], modNum)) % modNum
         return res
 
