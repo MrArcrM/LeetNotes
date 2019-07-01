@@ -5,7 +5,7 @@
 + [Question](https://leetcode-cn.com/problems/sort-list/): sort a single linkedlist with O(nlogn) time and O(1) space
 + Analysis:
 
-![image-20190627103010132](./pic/TimeComplexity-SortAlgorithms.png)
+![image-20190627103010132](../pic/TimeComplexity-SortAlgorithms.png)
 
 ​	O(nlogn) time：`Quicksort`、`Mergesort`、`Heapsort`
 

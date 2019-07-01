@@ -73,4 +73,5 @@ class Solution:
 
 + Related：
 
-  🏷 [`516-LongestPalindromeSubseq`](./BS-and-Log(n)-Algorithm/516-LongestPalindromeSubseq.md)
+  🏷 [`516-LongestPalindromeSubseq`](../BS-and-Log(n)-Algorithm/516-LongestPalindromeSubseq.md)
+

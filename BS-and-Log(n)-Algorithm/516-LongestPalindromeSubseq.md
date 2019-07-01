@@ -67,4 +67,5 @@ class Solution:
 
 + Related：
 
-  🏷 [`221-MaximalSquare`](../221-MaximalSquare.md)
+  🏷 [`221-MaximalSquare`](../hot-100/221-MaximalSquare.md)
+
