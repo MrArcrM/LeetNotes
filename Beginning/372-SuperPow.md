@@ -18,7 +18,7 @@
 class Solution:
     def superPow(self, a: int, b: List[int]) -> int:
       	'''
-      			(x^a * y^b) % c = ((x^a % c) * (y^b % c)) % c 
+      		(x^a * y^b) % c = ((x^a % c) * (y^b % c)) % c 
       	'''
         modNum = 1337
         res = 1
