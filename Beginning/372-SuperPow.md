@@ -2,15 +2,15 @@
 
 ### 372-SuperPow
 
-+ [Question](https://leetcode-cn.com/problems/super-pow/)：a^b^ mod c，b is a big integer array，a、c is integer
++ [Question](https://leetcode-cn.com/problems/super-pow/)：a<sup>b</sup> mod c，b is a big integer array，a、c is integer
 
 + Analysis：
 
-  `formula-1`：(x^a * y^b) % c = ((x^a % c) * (y^b % c)) % c 
+  `formula-1`：(x<sup>a</sup> * y<sup>b</sup>) % c = ((x<sup>a</sup> % c) * (y<sup>b</sup> % c)) % c 
 
-  `formula-2`：x^a % c = (x^a/2 % c * x^a/2 % c) % c，a is odd
+  `formula-2`：x<sup>a</sup> % c = (x<sup>a/2</sup> % c * x<sup>a/2</sup> % c) % c，a is odd
 
-  `formula-3`：x^a % c = (x^a/2 % c * x^a/2 % c * x) % c，a is even
+  `formula-3`：x<sup>a</sup> % c = (x<sup>a/2</sup> % c * x<sup>a/2</sup> % c * x) % c，a is even
 
 + Solution：
 

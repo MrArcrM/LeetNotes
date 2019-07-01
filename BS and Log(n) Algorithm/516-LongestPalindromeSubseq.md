@@ -9,9 +9,9 @@
   `dp(i,j)`: the longestPalindromeSubseq between s[i] and s[j]
 
   Equation of State Transition:
-  $$
-  d p(i, j)=\left\{\begin{array}{c}{d p(i+1, j-1)+2, \quad s[i]==s[j]} \\ {\max (d p(i+1, j), d p(i, j+1)), \quad s[i] !=s[j]}\end{array}\right.
-  $$
+
+  ![image-20190701134212087](../pic/516-Equation.png)
+
   Return: `dp(0, n-1)`
 
 + Solution-1：
