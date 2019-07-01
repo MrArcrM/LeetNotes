@@ -4,9 +4,5 @@
 
 🎈**Notes about LeetCode**🎈
 
-
-
-**Contact Me**
-
-​	📧：guoqu4akr@gmail.com
+📧 guoqu4akr@gmail.com 📧
 
