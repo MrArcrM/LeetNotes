@@ -12,13 +12,11 @@
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
         n = len(arr)
-        if x < arr[0]:
-            return arr[0:k]
-        elif x > arr[-1]:
-            return arr[n-k:n]
+        if x < arr[0]: return arr[0:k]
+        elif x > arr[-1]: return arr[n-k:n]
+        
         pLeft = self.binarySearch(arr, x)
         pRight = pLeft + 1
-
         while k > 0 and pLeft >= 0 and pRight < n:
             if x - arr[pLeft] <= arr[pRight] - x:
                 pLeft -= 1
