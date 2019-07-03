@@ -20,3 +20,8 @@ class Solution:
         return min(nums[pStart], nums[pEnd])        
 ```
 
++ Related：
+
+  🏷 [`81-Search`](./81-Search.md)
+
+  
