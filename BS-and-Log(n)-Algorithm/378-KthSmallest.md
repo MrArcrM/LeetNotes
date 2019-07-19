@@ -22,3 +22,27 @@ class Solution:
         return arr[k-1]
 ```
 
++ Solution-2：`BinarySearch`
+
+```python
+class Solution:
+    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
+        if matrix is None or len(matrix)==0 or len(matrix[0])==0:
+            return -1
+        length = len(matrix)
+        l,r = matrix[0][0],matrix[length-1][length-1]
+        while l<r:
+            mid,count = l+ (r-l)//2,0
+            for i in range(length):
+                for j in range(length-1,-1,-1):
+                    if matrix[i][j] <= mid:
+                        count+=1
+                    else:
+                        continue
+            if count<k:
+                l = mid+1
+            else:
+                r = mid
+        return l
+```
+
